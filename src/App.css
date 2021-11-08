@@ -1,0 +1,194 @@
+*{
+  font-size: 62.5%;
+}
+.App{
+  background-color: hsl(0,0%,98%);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.header-page{
+  background-color: #fff;
+  height: 2.5rem;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(0, 0, 0, .15);
+
+  justify-content: space-between;
+
+  padding: 1.5rem 25rem 1.5rem 25rem;
+
+  
+}
+.search-div > input{
+  outline: 0px none;
+  text-align: center;
+
+  width: 20rem;
+  height: 2.3rem;
+
+  background-color: hsl(0,0%,98%);
+  border: 1px solid rgba(0, 0, 0, .15);
+  margin-left: 9rem;
+  font-size: 1.2rem;
+}
+.search-div > input::placeholder{
+  color: rgba(0, 0, 0, .45);
+}
+.icons-header > a> img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.icons-header > a{
+  margin-left: 1.3rem;
+  text-decoration: none;
+}
+.icons-header > img{
+  margin-left: 1.3rem;
+  height: 2.5rem;
+  border-radius: 30px;
+}
+.stories-part{
+  width: 59rem;
+  height: 10vh;
+  background-color: #fff;
+
+  margin: 3rem 0 0 17.5%;
+  border: 1px solid rgba(0, 0, 0, .15);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 1rem 0 1.2rem 1.2rem;
+
+}
+.user-stories{
+  width: 6.2rem;
+  height: 6.2rem;
+
+
+  background: linear-gradient(220deg,rgb(201,56,147), rgb(249,157,76)); 
+  border-radius: 50px;
+
+  justify-content: center;
+  align-items: center;
+  padding: .2rem;
+  margin-right: 1.5rem;
+}
+.user-stories > img{
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50px;
+
+}
+.user-post{
+  width: 42.3%;
+  background-color: #fff;
+
+  margin: 3rem 0 2rem 25rem;
+  border: 1px solid rgba(0, 0, 0, .15);
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 0rem 0 0 0rem;
+
+}
+.profile-post{
+  width: 100%;
+  height: 3rem;
+
+  display: flex;
+  padding: 1.2rem;
+
+  align-items: center
+
+
+}
+.profile-post >img{
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.profile-post > a{
+  font-size: 1.4rem;
+  text-decoration: none;
+
+  color: #262626;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  
+  margin-left: 1.3rem
+}
+.content-post > img{
+  display: flex;
+  
+  width: 100%;
+
+}
+.interaction-post > a > img{
+  width: 3rem;
+  height: 3rem;
+  padding: 1.2rem 0 1.2rem 1.2rem;
+}
+.liked-post{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 1.2rem;
+}
+.liked-post >img{
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.6rem;
+}
+.liked-post > p{
+  font-family: 'Segoe UI';
+  font-size: 1.4rem;
+}
+.liked-post > a{
+  margin-left: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.description-post{
+  padding: 0 0 2rem 1.2rem;
+  display: flex;
+  flex-direction: row;
+}
+.description-post > a{
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.description-post > p{
+  font-size: 1.4rem;
+
+  margin: 0 0 0 0.5rem;
+}
+.comment-post{
+  display: flex;
+  width: 99.9%;
+
+  border-top: 1px solid rgba(0, 0, 0, .15);
+  justify-content: space-between;
+}
+.comment-post> div >img{
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1rem;
+}
+.comment-post > div{
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #8e8e8e;
+  padding: 0 1.2rem 0 1.2rem;
+}
+.public-comment>a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #0095f6; 
+}
